@@ -3,5 +3,4 @@
 #'
 #' @docType package
 #' @name fuscata
-#' @import lubridate dplyr tidyr purrr
 NULL
