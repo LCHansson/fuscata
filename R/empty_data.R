@@ -5,6 +5,8 @@ find_holes_in <- function(data) {
   has_na <- data %>% 
     purrr::map(is.na) %>% 
     purrr::map(any)
+  
+  has_na
 }
 
 #' Obfuscate data ny inserting random NA and/or NULL noise

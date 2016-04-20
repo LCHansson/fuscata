@@ -5,7 +5,9 @@ Authors@R: person("Love", "Hansson", email = "love.hansson@gmail.com",
                   role = c("aut", "cre"))
 Description: Tell me about my data! Give it some love!
 Depends:
-    R (>= 3.1.0)
+    R (>= 3.1.0),
+    dplyr
 License: Gnu GPL 3.0
 LazyData: true
 RoxygenNote: 5.0.1
+Suggests: testthat
